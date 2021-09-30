@@ -1,0 +1,54 @@
+.field {
+	input,
+	select {
+		border-width: 2px;
+		border-style: solid;
+		border-color: #bdbdbd;
+		background: #fff;
+		height: 37px;
+		padding: 0 9px;
+		font-size: 14px;
+		color: #666;
+		box-sizing: border-box;
+	}
+	margin: 25px 0;
+	label {
+		display: block;
+		font-weight: bold;
+		font-size: 16px;
+		line-height: 19px;
+		color: #000;
+		margin-bottom: 5px;
+	}
+	input {
+		width: 100%;
+		@media (min-width: 767px) {
+			width: 290px;
+		}
+	}
+	.toast {
+		background-color: #eb5757;
+		border-radius: 3px;
+		font-size: 13px;
+		color: #fff;
+		bottom: 0;
+		display: inline-block;
+		padding: 4px;
+		margin-top: 5px;
+		@media (max-width: 1024px) {
+			margin-left: 5px;
+			left: 100%;
+			width: 132px;
+			position: absolute;
+		}
+	}
+}
+.date-field {
+	display: flex;
+	flex-direction: column;
+	margin-top: 6px;
+	label {
+		c: #666;
+		font-size: 14px;
+	}
+}
